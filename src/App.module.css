@@ -1,0 +1,176 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin-top: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto', sans-serif;
+	background-color: #eee;
+}
+
+.todo-app {
+	max-width: 1000px;
+	background-color: #ccc;
+	box-shadow: 0px 0px 10px #888;
+}
+
+.add-todo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #eee;
+    padding: 2em;
+}
+
+.add-todo h2 {
+	font-weight: 300;
+}
+
+.input-space {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	flex-direction: row;
+}
+
+.todo-input {
+	width: 80%;
+	padding: 10px 20px;
+	border: none;
+	border-bottom: 1px solid #333;
+	background-color: transparent;
+	margin: 1em;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.todo-input:focus {
+	outline: none;
+}
+
+.add-btn {
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+    transform: scale(1.4);
+    transition: .5s;
+}
+
+.add-btn:hover {
+    transform: scale(1.6);
+}
+
+.filter {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #eee;
+	border-top: 1px solid #ccc;
+	padding: 1em;
+	width: 100%;
+}
+
+.filter-btn {
+	padding: 1em;
+	background-color: transparent;
+	border: 1px solid #ccc;
+	width: 200px;
+	font-size: 1rem;
+	transition: .3s;
+	cursor: pointer;
+}
+
+.filter-btn:hover {
+	border: 1px solid #888;
+	background-color: #fff;
+}
+
+.todo-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+}
+
+.todo-list ul {
+	width: 1000px;
+}
+
+.list-title {
+	padding: 0.5em 15em;
+	font-weight: 300;
+}
+
+.alert-info {
+	color: rgb(165, 0, 0);
+	padding: 1.4em;
+	width: 90%;
+	text-align: center;
+	font-size: 1.2rem;
+	border-top: 1px solid #ccc;
+}
+
+.list-element {
+	list-style: none;
+	border-top: 1px solid #ccc;
+	margin: 0em 2em;
+}
+
+.list-element:last-child {
+	margin-bottom: 2em;
+	border-bottom: 1px solid #ccc;
+}
+
+.todo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.2rem;
+	font-weight: 300;
+	padding: 1em 1em;
+}
+
+.todo p {
+	transition: 1s;
+}
+
+.finished {
+	color: #999;
+	text-decoration: #666 line-through;
+}
+
+.tools-btn {
+	margin: 0 1em;
+	background-color: transparent;
+	cursor: pointer;
+	transition: 0.5s;
+	border: none;
+    color: #222;
+    transform: scale(1.6);
+}
+
+.tools-btn:hover {
+    transform: scale(1.);
+}
+
+.finish:hover {
+	color: rgb(32, 192, 32);
+}
+
+.delete:hover {
+	color: rgb(255, 95, 67);
+}
+
+.edit:hover {
+	color: rgb(59, 100, 226);
+}

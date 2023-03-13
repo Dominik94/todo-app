@@ -1,0 +1,8 @@
+.material-symbols-outlined {
+	font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 1, 'opsz' 40;
+    transition: .5s;
+}
+
+.material-symbols-outlined:hover {
+	font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 1, 'opsz' 40;
+}
